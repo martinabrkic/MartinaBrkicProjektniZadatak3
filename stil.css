@@ -142,7 +142,29 @@ font-weight: bold;
 }
 
 .vjezbe {
-	align: center;
+align: center;
+}
+
+.vjezba {
+border: 1px solid #ccc;
+padding: 1em;
+margin: 1.5em 0;
+border-radius: 8px;
+background-color: #fefefe;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+text-align: center; /* Ovo centrirat će slike i videa */
+}
+
+.vjezba h4 {
+margin-top: 0;
+}
+
+.vjezba img,
+.vjezba video {
+max-width: 90%;
+height: auto;
+margin: 0.5em auto;
+display: inline-block;
 }
 
 footer {
